@@ -1,0 +1,14 @@
+FASTEST FREE DEPLOYMENT — NETLIFY (NEW SITE)
+1. Extract this ZIP.
+2. On your computer, open a terminal in the extracted folder.
+3. Run: npm install
+4. Run: npm run build
+5. In Netlify, create a NEW site and drag the dist folder to manual deploy.
+6. Keep the existing V16 Netlify site untouched.
+
+NO NPM ON YOUR COMPUTER?
+Connect this source folder via a separate GitHub repository to Cloudflare Pages or Netlify. The provider installs dependencies and builds it automatically.
+Build command: npm run build
+Output/publish directory: dist
+
+NOTE: React hosts the existing interactive HTML inside an iframe. This is not yet a native React rewrite of all form screens.
